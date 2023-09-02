@@ -21,7 +21,8 @@ The primary goal of this project was to develop a potential field planner for gu
 
 To ensure the effectiveness of the potential field planner, I conducted extensive testing using various scenarios and environments. I experimented with different parameter values to gauge their impact on planning success rates, execution times, and the consistency of generated paths. The project includes scripts that facilitate standalone testing as well as testing within the Gazebo simulator.
 
-![image](https://github.com/Saibernard/Reactive-Path-Planning-with-Potential-Fields-for-Panda-Robot/assets/112599512/8c82981c-c81c-4342-b957-c1488f97be65)
+![image](https://github.com/Saibernard/Reactive-Path-Planning-with-Potential-Fields-for-Panda-Robot/assets/112599512/1e055d2e-3753-44c4-9a97-6ab9dbc58633)
+
 
 ![image](https://github.com/Saibernard/Reactive-Path-Planning-with-Potential-Fields-for-Panda-Robot/assets/112599512/c8cb103b-a8a7-4242-9e0d-7d9a318280d6)
 
