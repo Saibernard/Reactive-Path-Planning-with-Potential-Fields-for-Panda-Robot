@@ -8,6 +8,11 @@ This repository contains my solution for implementing a potential field planner 
 
 I've successfully completed a project focused on robot path planning using potential fields for the Panda robot. The repository houses my implementation of a potential field-based planner, including testing in both simulation and hardware environments.
 
+![image](https://github.com/Saibernard/Reactive-Path-Planning-with-Potential-Fields-for-Panda-Robot/assets/112599512/6ef30bee-78d4-4adc-bdf7-d0919822c683)
+
+![image](https://github.com/Saibernard/Reactive-Path-Planning-with-Potential-Fields-for-Panda-Robot/assets/112599512/42cca81a-e2a6-41ea-9b41-1e60e49d48fb)
+
+
 ## Coding Implementation
 
 The primary goal of this project was to develop a potential field planner for guiding the Panda robot's arm from an initial configuration to a desired goal configuration. The core implementation resides in the `potentialFieldPlanner.py` file. I meticulously designed and incorporated essential helper functions within this file to compute forces, torques, distances, and gradients required for the planning process.
@@ -15,6 +20,29 @@ The primary goal of this project was to develop a potential field planner for gu
 ## Testing and Simulation
 
 To ensure the effectiveness of the potential field planner, I conducted extensive testing using various scenarios and environments. I experimented with different parameter values to gauge their impact on planning success rates, execution times, and the consistency of generated paths. The project includes scripts that facilitate standalone testing as well as testing within the Gazebo simulator.
+
+![image](https://github.com/Saibernard/Reactive-Path-Planning-with-Potential-Fields-for-Panda-Robot/assets/112599512/8c82981c-c81c-4342-b957-c1488f97be65)
+
+![image](https://github.com/Saibernard/Reactive-Path-Planning-with-Potential-Fields-for-Panda-Robot/assets/112599512/c8cb103b-a8a7-4242-9e0d-7d9a318280d6)
+
+### Start position of the robot in an obstacle environment:
+
+![image](https://github.com/Saibernard/Reactive-Path-Planning-with-Potential-Fields-for-Panda-Robot/assets/112599512/08345c2c-d151-4ebe-a5f1-0508aae2d0fe)
+
+### Goal position of the robot in an obstacle environment:
+
+![image](https://github.com/Saibernard/Reactive-Path-Planning-with-Potential-Fields-for-Panda-Robot/assets/112599512/61532fcc-898c-4c7e-93dd-7c13976258fd)
+
+### Goal position of the robot in an obstacle environment with different start position:
+
+![image](https://github.com/Saibernard/Reactive-Path-Planning-with-Potential-Fields-for-Panda-Robot/assets/112599512/7afd3ca1-d6bd-4fdd-ba42-0799221b940e)
+
+### Hardware implementation:
+
+The robot was able to traverse the imaginary obstacle and reach the goal position:
+
+![image](https://github.com/Saibernard/Reactive-Path-Planning-with-Potential-Fields-for-Panda-Robot/assets/112599512/359974ef-2c38-4b17-8a2b-05166a47869a)
+
 
 ## Usage
 
